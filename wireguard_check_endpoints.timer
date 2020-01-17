@@ -1,0 +1,8 @@
+[Unit]
+Description=Periodically Check Wireguard Endpoint
+
+[Timer]
+OnCalendar=OnCalendar=*-*-* *:*:00
+
+[Install]
+WantedBy=timers.target
