@@ -11,6 +11,7 @@ pep257 = "*"
 [packages]
 flask = "*"
 fire = "*"
+wireguard = "*"
 
 [requires]
 python_version = "3.7"

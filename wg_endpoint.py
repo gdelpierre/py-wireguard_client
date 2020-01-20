@@ -5,9 +5,8 @@ import logging
 import sys
 
 import fire
-import utils
-import wireguard
-
+from wireguard import utils
+from wireguard import wireguard
 
 __author__ = "Guillaume Delpierre"
 __credits__ = ["Guillaume Delpierre"]
